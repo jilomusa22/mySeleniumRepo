@@ -1,4 +1,4 @@
-package WebBrowserConcept;
+to mouse overpackage WebBrowserConcept;
 
 import java.awt.Desktop.Action;
 
@@ -30,7 +30,7 @@ public class DragAndDroup {
 		// Interview questions
 		
 		Thread.sleep(5000);// This is a static/Hard wait
-		Actions action = new Actions(driver);	// Actions Class
+		Actions action = new Actions(driver);	// Actions Class is used to mouse over
 		
 		 action
 		.clickAndHold(driver.findElement(By.id("draggable")))
