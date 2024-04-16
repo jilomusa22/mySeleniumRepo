@@ -32,8 +32,7 @@ public class DragAndDroup {
 		Thread.sleep(5000);// This is a static/Hard wait
 		Actions action = new Actions(driver);	// Actions Class is used to mouse over
 		
-		 action
-		.clickAndHold(driver.findElement(By.id("draggable")))
+		 action.clickAndHold(driver.findElement(By.id("draggable")))
 		.moveToElement(driver.findElement(By.id("droppable")))
 		.release()
 		.build()
